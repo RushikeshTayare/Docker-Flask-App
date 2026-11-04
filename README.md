@@ -86,20 +86,6 @@ Open your browser:
 
 http://localhost:5000
 
-**Health Check:**
-
-http://localhost:5000/health
-
-Expected health-check response:
-
-```json
-{
-  "application": "Flask",
-  "message": "Application is running",
-  "status": "healthy"
-}
-```
-
 ## Step 5: Docker Management Commands
 
 Check running containers:
@@ -141,7 +127,7 @@ docker rm -f flask-container
 Remove Docker image:
 
 ```bash
-docker rmi flask-docker-app:v1
+docker rmi Flask-Docker-App
 ```
 
 ## Docker Port Mapping
